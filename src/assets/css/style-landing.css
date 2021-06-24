@@ -1,0 +1,22 @@
+/*| Get Started |*/
+
+
+/*lg*/
+.text-logo-lg {
+    font-size: 180px;
+}
+
+.text-logo-md {
+    font-size: 126px;
+}
+
+.text-logo-sm {
+    font-size: 86px;
+}
+
+.nav-bar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+}
+
