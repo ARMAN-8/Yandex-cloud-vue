@@ -2,75 +2,7 @@
     <nav-bar-documentation/>
     <div>
         <div class="flex">
-            <div>
-                <div class="fixed flex min-h-screen">
-                    <!--sidebar-->
-                    <div id="sidebar"
-                         class="sidebar bg-white side-nav text-black w-72 space-y-6 absolute inset-y-0 left-0 transform -translate-x-full md:relative md:translate-x-0 transition duration-200 ease-in-out border-r">
-                        <!--mobile close button-times-->
-                        <div class="flex justify-end mx-2 md:hidden lg:hidden">
-                            <button id="mobile-menu-close" class="mobile-menu-button focus:outline-none">
-                                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                     stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                          d="M6 18L18 6M6 6l12 12"/>
-                                </svg>
-                            </button>
-                        </div>
-                        <!--logo-->
-                        <div class="flex items-center justify-center pt-2 pb-8">
-                            <a href="/"><img src="/dist/img/INTERN-TEST.png" alt=""></a>
-                        </div>
-                        <!--nav-->
-                        <nav class="mt-12">
-                            <div class="lg:ml-12 md:ml-8 ml-4">
-                                <div class="pt-4">
-                                    <a href="#" class="font-medium">
-                                        Обзор платформы
-                                    </a>
-                                </div>
-                                <ul class="">
-                                    <li class="flex items-center w-max ml-0 m-4">
-                                        <a href="./services-yandex-cloud.html" class="px-4 py-1">
-                                            Сервисы Yandex Cloud
-                                        </a>
-                                    </li>
-                                    <li class="flex items-center w-max ml-0 m-4">
-                                        <a href="#" class="px-4 py-1">
-                                            Зоны доступности
-                                        </a>
-                                    </li>
-                                    <li class="flex items-center w-max ml-0 m-4">
-                                        <a href="#" class="px-4 py-1">
-                                            Начало работы
-                                        </a>
-                                    </li>
-                                    <li class="flex items-center w-max ml-0 m-4">
-                                        <a href="#" class="px-4 py-1">
-                                            Квоты и лимиты
-                                        </a>
-                                    </li>
-                                    <li class="flex items-center w-max ml-0 m-4">
-                                        <a href="#" class="px-4 py-1">
-                                            API
-                                        </a>
-                                    </li>
-                                    <li class="flex items-center w-max ml-0 m-4">
-                                        <a href="#" class="px-4 py-1">
-                                            SLA
-                                        </a>
-                                    </li>
-                                    <li class="flex items-center w-max ml-0 m-4">
-                                        <a href="#" class="px-4 py-1">
-                                            Вопросы и ответы
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-            </div>
+            <side-nav/>
             <!--content-->
             <div class="w-full">
                 <div class="lg:ml-72 md:ml-72 px-4 lg:px-10 py-6 mt-32">
@@ -166,8 +98,9 @@
 </template>
 <script>
     import NavBarDocumentation from "../../components/nav-bar/nav-bar-documentation";
+    import SideNav from "../../components/side-nav";
     export default {
         name: 'overview',
-        components: {NavBarDocumentation},
+        components: {SideNav, NavBarDocumentation},
     }
 </script>

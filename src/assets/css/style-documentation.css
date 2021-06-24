@@ -1,0 +1,26 @@
+/*a {
+    color: #0c63e4;
+}*/
+.link {
+    color: #0c63e4;
+}
+
+.services-list-ul {
+    list-style-type: disc;
+    margin-left: 1.875rem;
+}
+
+.ul {
+    list-style-type: disc;
+    margin-left: 1.875rem;
+}
+
+.ul-circle {
+    list-style-type: circle;
+    margin-left: 1.875rem;
+}
+
+.ul-square {
+    list-style-type: square;
+    margin-left: 1.875rem;
+}
