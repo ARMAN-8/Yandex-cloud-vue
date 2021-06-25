@@ -5,9 +5,9 @@
                 <div class="relative flex items-center justify-between h-16">
                     <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
                         <!-- Mobile menu button-->
-                        <button type="button"
-                                class="mobile-menu-button inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
-                                aria-controls="mobile-menu" aria-expanded="false">
+                        <button type="button" v-on:click="mobileMenu"
+                                class="landing-mobile-menu-button inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                                aria-controls="landing-mobile-menu" aria-expanded="false">
                             <span class="sr-only">Open main menu</span>
                             <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"
                                  viewBox="0 0 24 24"
@@ -65,7 +65,7 @@
             </div>
 
             <!-- Mobile menu, show/hide based on menu state. -->
-            <div class="hidden sm:hidden mobile-menu text-center" id="mobile-menu">
+            <div class="hidden sm:hidden landing-mobile-menu text-center" id="landing-mobile-menu">
                 <div class="px-2 pt-2 pb-3 space-y-1">
                     <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                     <a href="#" class="text-blue-500 block px-3 py-2 rounded-md text-base font-medium"
@@ -100,5 +100,12 @@
 <script>
     export default {
         name: 'nav-bar-landing',
+        methods: {
+            /*mobile-menu*/
+            mobileMenu: function() {
+                const landingMobileMenu = document.querySelector('.landing-mobile-menu');
+                landingMobileMenu.classList.toggle('hidden');
+            }
+        },
     }
-</script>result of all eduication o nfile
+</script>

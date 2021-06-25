@@ -207,7 +207,7 @@
                   </div>
                   <div class="space-y-8 text-center lg:mt-20 mt-10 text-white">
                     <div class="text-center flex justify-center">
-                      <img class="w-36 text-white" src="https://lh3.googleusercontent.com/proxy/PNpi70KNvngrNwmsApu8XKxAZWglQL1YvL94E9P-o0pa0a-fU-NODJoVeed4bv8IO4Aqno_wEF6Rh0jjgC8XsmVsXli-zGWrxBya_tPtD2UVGmuUZE83ZGyAMcdX_NoKxlQCwXX6QPh9ftyl" alt=""/>
+                      <img class="w-36 text-white" src="https://logodownload.org/wp-content/uploads/2019/07/mini-logo.png" alt=""/>
                     </div>
                     <div class="lg:text-2xl md:text-2xl text-xl font-bold">Разработчики <br>ПО и сервисов</div>
                     <div class="text-xl">
@@ -535,7 +535,7 @@
                   </div>
                   <div class="lg:space-y-8 md:space-y-8 space-y-4 text-center lg:mt-20 mt-10">
                     <div class="text-center flex justify-center">
-                      <img class="w-36 text-white" src="https://lh3.googleusercontent.com/proxy/PNpi70KNvngrNwmsApu8XKxAZWglQL1YvL94E9P-o0pa0a-fU-NODJoVeed4bv8IO4Aqno_wEF6Rh0jjgC8XsmVsXli-zGWrxBya_tPtD2UVGmuUZE83ZGyAMcdX_NoKxlQCwXX6QPh9ftyl" alt=""/>
+                      <img class="w-36 text-white" src="https://logodownload.org/wp-content/uploads/2019/07/mini-logo.png" alt=""/>
                     </div>
                     <div class="text-2xl font-bold text-white">
                       Загрузите аудиозаписи объемом до 500MB и длительностью до 60 минут через API или ЛК

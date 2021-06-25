@@ -18,7 +18,7 @@
                 <a href="/"><img src="/dist/img/INTERN-TEST.png" alt=""></a>
             </div>
             <!--nav-->
-            <nav class="mt-12">
+            <nav id="nav" class="mt-12">
                 <div class="lg:ml-12 md:ml-8 ml-4">
                     <div class="pt-4">
                         <router-link to="/overview">
@@ -80,3 +80,13 @@
         name: 'side-nav',
     }
 </script>
+<style>
+    #nav a {
+        color: #000000;
+    }
+
+    #nav a.router-link-exact-active {
+        background: rgba(2,123,243,.08);
+        border-radius: 0.313rem;
+    }
+</style>
